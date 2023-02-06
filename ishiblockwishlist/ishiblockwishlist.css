@@ -1,0 +1,110 @@
+/* module ishiblockwishlist */
+
+/* lnk on detail product page */
+/*#wishlist_button {
+	padding:2px 0 2px 20px;
+	background:url(img/icon/add.png) no-repeat 0 0 transparent
+}*/
+
+/* bt add */
+.add_wishlist_button a {padding:5px 7px 5px 18px}
+.add_wishlist_button a span {
+   z-index:10;
+   display:block;
+   position:absolute;
+   top:-1px;
+   left:-12px;
+   height:26px;
+   width:26px;
+   background:url(img/icon/pict_add_wishlist.png) no-repeat 0 0 transparent
+}
+
+/* bloc */
+#wishlist_block #wishlist_block_list {
+	margin:5px 0 10px 0;
+	padding-bottom:10px;
+	border-bottom:1px dotted #ccc
+}
+#wishlist_block_list dt {
+    position:relative;
+	margin-top:5px;
+	padding-right:20px
+}
+
+#wishlist_block_list .quantity-formated {
+	display:inline-block;
+	margin-right:5px;
+	width:15px
+}
+
+#wishlist_block_list .cart_block_product_name {font-weight:bold}
+#wishlist_block_list .ajax_cart_block_remove_link {
+	display:inline-block;
+	position:absolute;
+    right:0;
+    top:0;
+	margin:1px 0 0 5px;
+	height:12px;
+	width:12px
+}
+#wishlist_block_list dd {margin:0 0 0 24px}
+
+
+#wishlist_block_list .ajax_cart_block_remove_link a {
+	display:inline-block;
+	height:12px;
+	width:12px;
+	background: url(img/icon/delete.gif) no-repeat 0 0
+}
+#wishlist_block_list .price {
+	float:right
+}
+
+#wishlist_block select#wishlists {
+	margin-bottom:10px;
+	width:99%;
+	border:1px solid #ccc;
+}
+#wishlist_block .lnk {padding:0}
+#wishlist_block .lnk a {
+	display:block;
+	font-weight:bold;
+	text-align:right
+}
+
+/* page in my account ************************************************************************* */
+#module-ishiblockwishlist-mywishlist #left_column {display:none}
+#module-ishiblockwishlist-mywishlist #center_column{width:757px}
+
+/* block-order-detail ********************************** */
+/*#module-ishiblockwishlist-mywishlist #block-order-detail {margin-top:20px}*/
+
+/* wishlistLinkTop */
+
+#module-ishiblockwishlist-mywishlist .wishlistLinkTop {}
+#module-ishiblockwishlist-mywishlist .wishlistLinkTop ul {
+	list-style-type:none;
+	border-bottom:1px dotted #ccc
+}
+#module-ishiblockwishlist-mywishlist .wishlistLinkTop ul.wlp_bought_list {border:none;}
+#module-ishiblockwishlist-mywishlist .wishlistLinkTop li {float:left}
+#module-ishiblockwishlist-mywishlist .wishlistLinkTop .display_list li a {
+   display:inline-block;
+   padding:7px 11px 7px 15px;
+   color: #333;
+   background:url(img/arrow_right_2.png) no-repeat 0 14px transparent;
+}
+#module-ishiblockwishlist-mywishlist .wishlistLinkTop #showBoughtProducts,
+#module-ishiblockwishlist-mywishlist .wishlistLinkTop #hideBoughtProductsInfos {display:none}
+
+/* wishlisturl */
+/*#module-ishiblockwishlist-mywishlist .wishlisturl {
+	margin:20px 0;
+	padding:10px;
+	background:#fbfbfb;
+}*/
+/*#module-ishiblockwishlist-mywishlist .wishlisturl input {
+	padding:2px 5px;
+	border:1px solid #ccc;
+}
+*/
